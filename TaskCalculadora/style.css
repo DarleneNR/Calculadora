@@ -1,3 +1,4 @@
+/* Primera Calculadora */
 .calculadora{
     display: block;
     margin: 0 auto;
@@ -27,4 +28,5 @@
     background-color: #fff;
     border-radius: 25px;
     overflow-y: scroll;
+    font-family:monospace;
 }

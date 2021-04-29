@@ -1,0 +1,32 @@
+/* Segunda Calculadora */
+
+#calculadora2{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(59, 59, 59);
+    width: 295px;
+    height: 490px;
+    border-radius: 20px;
+}
+
+#result{
+    display: block;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 293px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family:monospace;
+}
+
+.row button{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
+

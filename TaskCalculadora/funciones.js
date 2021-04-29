@@ -1,3 +1,5 @@
+// Primera Calculadora
+
 // Variables para la operaciones
 var numero1;
 var numero2;
@@ -126,4 +128,5 @@ function resolver(){
     resetear();
     // Ver el resultado de la opración que ya se guardó en la variable res
     resultado.textContent = res;
+
 }
