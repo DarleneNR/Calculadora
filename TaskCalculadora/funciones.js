@@ -128,5 +128,4 @@ function resolver(){
     resetear();
     // Ver el resultado de la opración que ya se guardó en la variable res
     resultado.textContent = res;
-
 }
