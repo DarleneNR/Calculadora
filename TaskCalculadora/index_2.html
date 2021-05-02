@@ -8,41 +8,31 @@
     <link type="text/css" href="./style2.css" rel="stylesheet">
     <script src="./funciones2.js"></script>
 </head>
-<bodys>
+<body>
 
     <!-- Segunda Calculadora -->
     <form id="calculadora2">
-        <div class="row">
-            <p>Resultado:</p>
-            <span id="result"></span>
-        </div>
+        <label>Número 1: </label>
+        <input type="number" id="numero1" placeholder="Ingresa un número">
 
-        <div class="row">
-            <div class="col-4" id="primera_columna">
-            <input type="number" name="num1" id="num1" placeholder="Ingresa un número">
-            </div>
+        <button onclick="clean();">C</button> 
+        <br><br>
 
-            <div class="col-4" id="tercera_columna">
-                <input type="number" name="num2" id="num2" placeholder="Ingresa un número">
-            </div>
+        <label>Número 2: </label>
+        <input type="number" id="numero2" placeholder="Ingresa otro número">
+        <br><br>
 
-            <!-- Eventos -->
-            <div class="col-4" id="segunda_columna">
-                <button id="clean" onclick="clean()">C</button>
-                
-                <button id="multiplication" onclick="multiplication()" class="btn btn-primary">×</button> 
-                
-                <button id="div" onclick="div()">÷</button>
-                
-                <button id="sum" onclick="sum()">+</button> 
-                
-                <button id="subt" onclick="subt()">-</button> 
-                
-                <button id="same" onclick="same()">=</button>
-            </div>
-        </div>
+        <!-- Operadores -->
+        <button type="button" onclick="sum();">+</button>
+        <button type="button" onclick="subt();">-</button>
+        <button type="button" onclick="div();">÷</button>
+        <button type="button" onclick="mult();">×</button>
+        <br><br>
+        
+        <p>El resultado es: <span id="result"></span></p>
 
     </form>
 
+    
 </body>
 </html>
